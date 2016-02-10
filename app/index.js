@@ -1,4 +1,5 @@
 require('bootstrap/dist/css/bootstrap.css');
 require('./stylesheets/main.scss');
 
-require('./scripts/main.js');
+require('./scripts/set-copyright-year');
+require('./scripts/main');

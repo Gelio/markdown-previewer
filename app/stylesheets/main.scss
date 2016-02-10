@@ -1,0 +1,14 @@
+.markdown-input {
+  width: 100%;
+  height: 300px;
+}
+
+.markdown-preview {
+  table, th, td {
+    border: solid;
+  }
+
+  th, td {
+    padding: 0.5em;
+  }
+}

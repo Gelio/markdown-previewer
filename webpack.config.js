@@ -47,6 +47,11 @@ var common = {
                     presets: ['react', 'es2015', 'stage-0'],
                     plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy']
                 }
+            },
+            {
+                test: /\.md$/,
+                loader: 'raw',
+                include: PATHS.app
             }
         ]
     },
